@@ -2,6 +2,67 @@
 /**
  * 
  * @authors Your Name (you@example.org)
- * @date    2017-03-23 23:39:26
+ * @date    2017-03-31 20:34:54
  * @version $Id$
  */
+
+.web{
+	width: 50%;
+	height: 100px;
+	margin: auto;
+	text-align: center;
+	color:#66f;
+	font-weight: bolder;
+	font-size: 50px;
+	text-shadow: 3px 3px #069;
+}
+
+
+.box1{
+	position: relative;
+	width:200px;
+	height: 50px;
+	margin: 10px;
+	border-radius: 10px;
+	background-color: white;
+	left: 42%;
+	text-align: center;
+	line-height: 50px;
+}
+
+.box1:hover{
+	animation: myfirst 0.1s;
+	transform:scale(0.9,0.9);
+}
+
+.box1:hover::before{
+	position: absolute;
+	content: "";
+	width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 15px solid white;
+	left:-20px;
+	top: 15%;
+}
+
+.box1:hover::after{
+	position: absolute;
+	content: "";
+	width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-right: 15px solid white;
+	left: 205px;
+	top: 15%;
+}
+
+@keyframes myfirst{
+	0% { transform: scale(1,1); }
+	25% {transform: scale(0.98,0.98);}
+	50% {transform: scale(0.96,0.96);}
+	75% {transform: scale(0.94,0.94);}
+	100% {transform: scale(0.9,0.9);}
+}
