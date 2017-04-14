@@ -1,0 +1,158 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-04-13 16:09:55
+ * @version $Id$
+ */
+
+.ui-project1-inner{
+	width: 600px;
+	height: 300px;
+	padding: 10px;
+	margin: 10px;
+	border: 1px solid black;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: flex-start;
+	justify-content: space-around;
+}
+
+.ui-project1-outer{
+	width: 100%;
+	height: 100%;
+	
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: rgba(0,0,0,0.8);
+	z-index: 1;
+	display: none;
+}
+
+.ui-project1-outer-img{
+	position: absolute;
+	width: 400px;
+	border:8px solid #fff;
+}
+.ui-project1-inner-pic{
+	box-sizing: border-box;
+	width: 100px;
+	height: 100px;
+	margin: 10px;
+	border: 1px solid black;
+	background-color: gray;
+	cursor: pointer;
+}
+
+.ui-project2{
+	width: 500px;
+	height: 380px;
+	margin: 10px;
+	border-left: 1px solid black;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.title-current{
+	width: 100px;
+	height: 30px;
+	border-top: 1px solid black;
+	border-right: 1px solid black;
+	background-color: gray;
+	cursor: pointer;
+}
+
+.ui-project2-title{
+	width: 100px;
+	height: 30px;
+	border-top: 1px solid black;
+	border-right: 1px solid black;
+	cursor: pointer;
+}
+
+ .ui-project2 .content-current{
+	box-sizing: border-box;
+	width: 500px;
+	height: 350px;
+	border:1px solid black;
+	border-left: 0;
+	display: block;
+	align-self: flex-end;
+}
+.ui-project2-content{
+	box-sizing: border-box;
+	width: 500px;
+	height: 350px;
+	border:1px solid black;
+	border-left: 0;
+	font-size: 250px;
+	color: rgba(0,0,0,0.5);
+	text-align: center;
+	line-height: 350px;
+	display: none;
+	align-self: flex-end;
+}
+
+
+.ui-project3{
+	width: 450px;
+	height: 400px;
+	margin: 10px;
+	border: 1px solid black;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	
+}
+
+.ui-project3-allrow{
+	flex: 1;
+	overflow: auto;
+}
+
+
+.ui-project3-add{
+	width: 150px;
+	height: 30px;
+	border:1px solid black;
+	background-color: rgb(51,153,102);
+	color: white;
+	line-height: 30px;
+	text-align: center;
+	cursor: pointer;
+	align-self: flex-end;
+}
+
+.ui-project3-row{
+	width: 400px;
+	height: 40px;
+	margin: 10px;
+	border:1px solid black;
+	display: flex;
+}
+
+.ui-project3-row-no{
+	box-sizing: border-box;
+	width: 50px;
+	height: 40px;
+	border-right: 1px solid black;
+	text-align: center;
+	line-height: 40px;
+}
+.ui-project3-row-data{
+	box-sizing: border-box;
+	width: 250px;
+	height: 40px;
+}
+.ui-project3-row-del{
+	box-sizing: border-box;
+	width: 100px;
+	height: 40px;
+	border-left: 1px solid black;
+	text-align: center;
+	line-height: 40px;
+	cursor: pointer;
+}
