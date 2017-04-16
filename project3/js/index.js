@@ -5,6 +5,9 @@
  * @version $Id$
  */
 
+$(document).ready(function(){
+
+//No.1
 $(function(){
 	var number=10;
 	var i;
@@ -17,9 +20,6 @@ $(function(){
 		$(".ui-project1-inner-pic").eq(i).attr("src","img/img-"+(i+1)+".jpg");
 })
 
-$(document).ready(function(){
-
-//No.1
 $(".ui-project1-inner-pic").click(function(event) {
 	$(".ui-project1-outer-img").attr("src",$(this).attr("src"));
 	$(".ui-project1-outer-img").css({'left':($(window).width()-400)/2,'top':($(window).height()-$(this).height()*(600/$(this).width()))/2});
