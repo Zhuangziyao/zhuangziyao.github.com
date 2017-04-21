@@ -357,9 +357,13 @@
 	line-height: 38px;
 	font-weight: bold;
 }
-
+.fa{
+	display: inline;
+}
 .new{
-	color:rgb(13,125,207);
+	background:-webkit-linear-gradient(rgb(19,160,252),rgb(0,114,203));
+	-webkit-background-clip: text;
+	color:transparent;
 }
 .new:after{
 	content: "のぞみ203号(新大阪行)";
@@ -368,7 +372,9 @@
 	font-weight: normal;
 }
 .jr{
-	color: green;
+	background:-webkit-linear-gradient(rgb(82,185,151),rgb(0,114,69));
+	-webkit-background-clip: text;
+	color:transparent;
 }
 
 .jr:after{
