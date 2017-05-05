@@ -1,0 +1,32 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-05-04 15:58:37
+ * @version $Id$
+ */
+#mymap{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 80%;
+	height: 100%;
+}
+
+#result{
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 20%;
+	height: 100%;
+	
+}
+
+
+#panel{
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	width: 20%;
+	height: 100%;
+}
